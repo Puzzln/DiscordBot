@@ -1,0 +1,248 @@
+{
+    "plugins": [
+        {
+            "id": 0,
+            "name": "Purge messages",
+            "activated": false,
+            "config": "",
+            "info": {
+                "example": "!purge 20",
+                "note": "",
+                "requirements": "Create a logs channel"
+            }
+        },
+        {
+            "id": 1,
+            "name": "Welcome message",
+            "activated": false,
+            "config": "welcomemessage",
+            "info": {
+                "example": "",
+                "note": "",
+                "requirements": "Create a channel"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Kick user",
+            "activated": false,
+            "config": "",
+            "info": {
+                "example": "!kick @user spam",
+                "note": "",
+                "requirements": "Create a logs channel"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Ban user",
+            "activated": false,
+            "config": "",
+            "info": {
+                "example": "!ban @user spam",
+                "note": "",
+                "requirements": "Create a logs channel"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Report user",
+            "activated": false,
+            "config": "",
+            "info": {
+                "example": "!report @user spam",
+                "note": "",
+                "requirements": "Create a logs channel"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Temp mute user",
+            "activated": true,
+            "config": "",
+            "info": {
+                "example": "!tempmute @user 10s",
+                "note": "s = seconds, m = minutes, h = hours",
+                "requirements": "Create a logs channel"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Server info",
+            "activated": false,
+            "config": "",
+            "info": {
+                "example": "!serverinfo",
+                "note": "",
+                "requirements": ""
+            }
+        },
+        {
+            "id": 7,
+            "name": "Weather info",
+            "activated": true,
+            "config": "weather",
+            "info": {
+                "example": "!weather Copenhagen",
+                "note": "",
+                "requirements": ""
+            }
+        },
+        {
+            "id": 8,
+            "name": "Music - Export only",
+            "activated": true,
+            "config": "",
+            "info": {
+                "example": "!play {YouTube URL}, !leave, !pause, !resume, !queue, !skip",
+                "note": "Export only",
+                "requirements": ""
+            }
+        },
+        {
+            "id": 9,
+            "name": "Channel lockdown",
+            "activated": true,
+            "config": "",
+            "info": {
+                "example": "!lockdown 10s",
+                "note": "s = seconds, m = minutes, h = hours",
+                "requirements": ""
+            }
+        },
+        {
+            "id": 10,
+            "name": "Shutdown command",
+            "activated": false,
+            "config": "",
+            "info": {
+                "example": "!shutdown",
+                "note": "",
+                "requirements": ""
+            }
+        },
+        {
+            "id": 11,
+            "name": "Banned words",
+            "activated": true,
+            "config": "bannedwords",
+            "info": {
+                "example": "",
+                "note": "Auto delete messages contained banned words",
+                "requirements": ""
+            }
+        },
+        {
+            "id": 12,
+            "name": "Ticket system",
+            "activated": false,
+            "config": "ticketSystem",
+            "info": {
+                "example": "!ticket I cant find Bob",
+                "note": "",
+                "requirements": "You need a channel to create tickets called: create-ticket, support or something like that."
+            }
+        },
+        {
+            "id": 13,
+            "name": "DM message",
+            "activated": false,
+            "config": "",
+            "info": {
+                "example": "!dm <@user or ID> Message",
+                "note": "!dm @zit_x_us#9951 Hello!",
+                "requirements": ""
+            }
+        },
+        {
+            "id": 14,
+            "name": "Dice",
+            "activated": false,
+            "config": "",
+            "info": {
+                "example": "!dice",
+                "note": "Will return a random number between 1 and 6",
+                "requirements": ""
+            }
+        },
+        {
+            "id": 15,
+            "name": "Warn",
+            "activated": false,
+            "config": "",
+            "info": {
+                "example": "!Warn @zit_x_us#9951",
+                "note": "Warns a user",
+                "requirements": "Create a logs channel"
+            }
+        },
+        {
+            "id": 16,
+            "name": "Advanced Help",
+            "activated": false,
+            "config": "",
+            "info": {
+                "example": "!help",
+                "note": "",
+                "requirements": ""
+            }
+        },
+        {
+            "id": 17,
+            "name": "Coin Flip",
+            "activated": false,
+            "config": "",
+            "info": {
+                "example": "!flip",
+                "note": "",
+                "requirements": ""
+            }
+        },
+        {
+            "id": 18,
+            "name": "Announcement",
+            "activated": false,
+            "config": "",
+            "info": {
+                "example": "!announce {#channel} {COLOR} {TITLE} {MESSAGE CAN BE LIKE THIS}",
+                "note": "",
+                "requirements": ""
+            }
+        },
+        {
+            "id": 19,
+            "name": "Auto role",
+            "activated": false,
+            "config": "autorole",
+            "info": {
+                "example": "",
+                "note": "Gives the joining user a role",
+                "requirements": ""
+            }
+        }
+    ],
+    "welcomemessage": {
+        "channelid": "",
+        "text": ""
+    },
+    "weather": {
+        "degree": "C"
+    },
+    "gamestatus": "𝕻𝖚𝖟𝖟𝖑𝖓 ✓",
+    "statustype": "WATCHING",
+    "prefix": "𝕻𝖚𝖟𝖟𝖑𝖓 ✓:-)",
+    "token": "NjYyNzAzMDcyOTYyOTM2ODkz.Xg90eA.bT4mY85QdT9GuHVH73kQ9va8s14",
+    "bannedwords": {
+        "responseMessage": "Stop shit talking!",
+        "channelid": ""
+    },
+    "ticketsystem": {
+        "ticketCategoryID": "",
+        "createTicketChannelID": ""
+    },
+    "autorole": {
+        "guildID": "",
+        "autoroleID": ""
+    },
+    "commands": []
+}
